@@ -9,13 +9,21 @@
   <img width="500" height="200" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Coat_of_arms_of_West_Java.svg">
 </p>
 
-<div align="center">
-
 ## :scroll: Deskripsi
 
 Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Pada project akhir mata kuliah Manajemen Data Statistika kali ini, kelompok kami akan merangkum lokasi wisata yang ada di provinsi Jawa Barat.
 
+## :bookmark_tabs: Requirements
+
+- Scrapping data menggunakan package R yaitu `rvest` dengan pendukung package lainnya seperti `tidyverse`,`rio`,`kableExtra` dan `stingr`  
+- RDBMS yang digunakan adalah PostgreSQL dan ElephantSQL
+- Dashboard menggunakan `shinny`, `shinnythemes`, `bs4Dash`, `DT`, dan `dplyr` dari package R
+
+## :question: Skema
 <div align="center">
 Project ini dirancang dengan skema sebagai berikut:
-  <img width="900" height="500" src="https://github.com/fidafarihaa/kelompok8_MDS/assets/142286392/b3445312-8362-4077-8dd7-382ca11b421f">
+  <img width="700" height="350" src="https://github.com/fidafarihaa/kelompok8_MDS/assets/142286392/b3445312-8362-4077-8dd7-382ca11b421f">
 </p>
+
+## :green_book: ERD
+ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atribut. Pada project ini, terdapat 4 entitas, yaitu entitas kabkot, kecamatan, kelurahan serta wisata. Pada entitas kabkot terdapat kode_kabkot yang akan terhubung ke entitas kecamatan, selanjutnya pada entitas kecamatan terdapat atribut kode_kec yang akan terhubung dengan entitas kelurahan, serta pada entitas kelurahan terdapat kode_kel yang akan terhubung dengan entitas wisata.
