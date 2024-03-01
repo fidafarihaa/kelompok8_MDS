@@ -15,6 +15,7 @@
 
 Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Pada project akhir mata kuliah Manajemen Data Statistika kali ini, kelompok kami akan merangkum lokasi wisata yang ada di provinsi Jawa Barat.
 
-Berikut ditampilkan untuk skema yang akan kami kerjakan dalam proses pemilihan tempat wisata di jawa barat:
-
-![Screenshot_1](https://github.com/fidafarihaa/kelompok8_MDS/assets/142286392/b3445312-8362-4077-8dd7-382ca11b421f)
+<div align="left">
+Project ini dirancang dengan skema sebagai berikut:
+  ![Screenshot_1](https://github.com/fidafarihaa/kelompok8_MDS/assets/142286392/b3445312-8362-4077-8dd7-382ca11b421f)
+</p>
