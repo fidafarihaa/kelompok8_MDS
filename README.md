@@ -32,7 +32,7 @@ ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atr
   <img width="600" height="400" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/ERD.png">
 </p>
 
-## open_book: Deskripsi Data
+## :open_book: Deskripsi Data
 
 Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
 
