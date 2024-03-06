@@ -54,10 +54,10 @@ CREATE DATABASE "WisataJabar"
 Table Kabkot memberikan informasi mengenai data Kabupaten dan Kota di Provinsi Jawa Barat, beserta Ibukota setiap Kabupaten Kota dan Jumlah Penduduk di Kabupaten Kota tersebut.
 | Attribute          | Type                  | Description                     |
 |:-------------------|:----------------------|:--------------------------------|
-| Kode_Kabkot        | character (6) 	     | Id Instansi                     |
-| Nama_Kabkot        | character varying(20) | Nama Instansi                   |
-| Ibukota            | character varying(20) | Lokasi                          |
-| Jml_pddk           | smallint 	     | Jumlah Penulis                  |
+| Kode_Kabkot        | character (6) 	     | Kode Kabupaten Kota             |
+| Nama_Kabkot        | character varying(20) | Nama Kabupaten Kota             |
+| Ibukota            | character varying(20) | Ibukota Kabupaten Kota          |
+| Jml_pddk           | smallint 	     | Jumlah Penduduk                 |
 
 dengan script SQL sebagai berikut:
 ```sql
