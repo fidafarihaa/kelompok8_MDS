@@ -69,3 +69,42 @@ CREATE TABLE IF NOT EXISTS public.KabKot (
     PRIMARY KEY (Kode_Kabkot)
 );
 ```
+
+### Create Table Kecamatan
+Table Kecamatan berisi data-data kecamatan di setiap Kabupaten Kota serta jumlah penduduk di setiap Kecamatan tersebut.
+| Attribute          | Type                  | Description                     |
+|:-------------------|:----------------------|:--------------------------------|
+| Kode_Kec           | character (8) 	     | Kode Kecamatan                  |
+| Kode_Kabkot        | character (6)	     | Kode Kabupaten Kota             |
+| Nama_Kec           | character varying(20) | Nama Kecamatan        	       |
+| Jml_pddk_kec       | smallint 	     | Jumlah Penduduk Kecamatan       |
+
+dengan script SQL sebagai berikut:
+```sql
+CREATE TABLE IF NOT EXISTS public.Kecamatan (
+    Kode_Kec character(8) NOT NULL,
+	Kode_Kabkot character(6) NOT NULL,
+	Nama_Kec varchar(20) NOT NULL,
+    Jml_pddk_kec int NOT NULL,
+    PRIMARY KEY (Kode_Kec)
+);
+```
+
+### Create Table Kelurahan
+Table Kelurahan berisi data-data kelurahan di setiap Kecamatan serta jumlah penduduk di setiap kelurahan. Note: Beberapa kelurahan memiliki data jumlah penduduk yang tidak sesuai dengan data Indonesia, karena data dibuat sendiri.
+| Attribute          | Type                  | Description                     |
+|:-------------------|:----------------------|:--------------------------------|
+| Kode_Kel           | character (13) 	     | Kode Kelurahan                  |
+| Kode_Kec           | character (8)	     | Kode Kecamatan                  |
+| Nama_Kel           | character varying(20) | Nama Kelurahan                  |
+| Jml_pddk_kel       | smallint 	     | Jumlah Penduduk Kelurahan       |
+
+dengan script SQL sebagai berikut:
+```sql
+CREATE TABLE IF NOT EXISTS public.Kelurahan (
+    Kode_Kel character(13) NOT NULL,
+	Kode_Kec character(8) NOT NULL,
+	Nama_Kel varchar(20) NOT NULL,
+    Jml_pddk_kel int NOT NULL,
+    PRIMARY KEY (Kode_Kel)
+);
