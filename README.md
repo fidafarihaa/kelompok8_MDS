@@ -108,6 +108,7 @@ CREATE TABLE IF NOT EXISTS public.Kelurahan (
     Jml_pddk_kel int NOT NULL,
     PRIMARY KEY (Kode_Kel)
 );
+```
 
 ### Create Table Wisata
 Table wisata berisi data wisata yang terdapat di Provinsi Jawa Barat, selain itu tabel ini menyajikan lokasi wisata tersebut, deskripsi serta termasuk kedalam tipe apakah wisata tersebut serta berapa biaya masuk lokasi wisata tersebut. Dengan adanya ini dapat memudahkan dalam memilih lokasi wisata jika berkunjung ke Provinsi Jawa Barat.
