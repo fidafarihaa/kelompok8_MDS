@@ -50,14 +50,14 @@ CREATE DATABASE "WisataJabar"
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
 ```
-### Create Table Instansi
-Table instansi memberikan informasi kepada user mengenai lembaga asal penulis jurnal sinta, sehingga user dapat mengetahui id instansi penulis, nama instansi penulis, jumlah penulis pada instansi tersebut, jumlah departemen pada instansi dan jumlah jurnal yang telah diterbitkan oleh setiap instansi. Berikut deskripsi untuk setiap tabel instansi.
+### Create Table Kabkot
+Table Kabkot memberikan informasi mengenai data Kabupaten dan Kota di Provinsi Jawa Barat, beserta Ibukota setiap Kabupaten Kota dan Jumlah Penduduk di Kabupaten Kota tersebut.
 | Attribute          | Type                  | Description                     |
 |:-------------------|:----------------------|:--------------------------------|
-| Kode_Kabkot        | character (6) 	    	 | Id Instansi                     |
-| Nama_Kabkot      	 | character varying(20) | Nama Instansi                   |
+| Kode_Kabkot        | character (6) 	     | Id Instansi                     |
+| Nama_Kabkot        | character varying(20) | Nama Instansi                   |
 | Ibukota            | character varying(20) | Lokasi                          |
-| Jml_pddk     		   | smallint 	    	     | Jumlah Penulis                  |
+| Jml_pddk           | smallint 	     | Jumlah Penulis                  |
 
 dengan script SQL sebagai berikut:
 ```sql
