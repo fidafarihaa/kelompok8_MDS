@@ -6,7 +6,7 @@
 
 # Wisata Jawa Barat
 <p align="center">
-  <img width="500" height="200" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Coat_of_arms_of_West_Java.svg">
+  <img width="500" height="200" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/Header.png">
 </p>
 
 ## :scroll: Deskripsi
