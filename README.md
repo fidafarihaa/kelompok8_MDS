@@ -21,7 +21,7 @@ Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat
 
 ## :question: Skema
 Project ini dirancang dengan skema sebagai berikut:
-<div align="center">
+<p div align="center">
   <img width="700" height="350" src="https://github.com/fidafarihaa/kelompok8_MDS/assets/142286392/b3445312-8362-4077-8dd7-382ca11b421f">
 </p>
 
