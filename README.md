@@ -82,11 +82,15 @@ Table Kecamatan berisi data-data kecamatan di setiap Kabupaten Kota serta jumlah
 dengan script SQL sebagai berikut:
 ```sql
 CREATE TABLE IF NOT EXISTS public.Kecamatan (
-    Kode_Kec character(8) NOT NULL,
-	Kode_Kabkot character(6) NOT NULL,
-	Nama_Kec varchar(20) NOT NULL,
-    Jml_pddk_kec int NOT NULL,
-    PRIMARY KEY (Kode_Kec)
+	kode_kec character(8) COLLATE pg_catalog."default" NOT NULL,
+    kode_kabkot character(6) COLLATE pg_catalog."default" NOT NULL,
+    nama_kec character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    jml_pddk_kec integer NOT NULL,
+    CONSTRAINT kecamatan_pkey PRIMARY KEY (kode_kec),
+    CONSTRAINT Kecamatan_Kode_Kabkot_fkey FOREIGN KEY (kode_kabkot)
+        REFERENCES public.kabkot (kode_kabkot) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
 );
 ```
 
@@ -102,11 +106,15 @@ Table Kelurahan berisi data-data kelurahan di setiap Kecamatan serta jumlah pend
 dengan script SQL sebagai berikut:
 ```sql
 CREATE TABLE IF NOT EXISTS public.Kelurahan (
-    Kode_Kel character(13) NOT NULL,
-	Kode_Kec character(8) NOT NULL,
-	Nama_Kel varchar(20) NOT NULL,
-    Jml_pddk_kel int NOT NULL,
-    PRIMARY KEY (Kode_Kel)
+	kode_kel character(13) COLLATE pg_catalog."default" NOT NULL,
+    kode_kec character(8) COLLATE pg_catalog."default" NOT NULL,
+    nama_kel character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    jml_pddk_kel integer NOT NULL,
+    CONSTRAINT kecamatan_pkey PRIMARY KEY (kode_kel),
+    CONSTRAINT Kelurahan_kode_kec_fkey FOREIGN KEY (kode_kec)
+        REFERENCES public.Kecamatan (kode_kec) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
 );
 ```
 
@@ -122,18 +130,34 @@ Table wisata berisi data wisata yang terdapat di Provinsi Jawa Barat, selain itu
 | Kode_Kel    	     	     | character (13)	      | Kode Kelurahan                      |
 | Deskripsi                  | character varying(1000)| Deskripsi Wisata     		    |
 | Harga_Tiket		     | character varying(50)  | Harga Tiket Masuk Wisata	    |
+| Rating		     | character varying(20)  | Rating Wisata	 		    |
+| Alamat		     | character varying(50)  | Alamat Lengkap Wisata		    |
 
 dengan script SQL sebagai berikut:              
 ```sql
 CREATE TABLE IF NOT EXISTS public.Wisata (
-    Kode_Wisata character(7) NOT NULL,
-	Tipe_Wisata varchar(50) NOT NULL,
-	Nama_Wisata varchar(50) NOT NULL,
-	Kode_Kabkot character(6) NOT NULL,
-	Kode_Kec character(8) NOT NULL,
-	Kode_Kel character(13) NOT NULL,
-	Deskripsi varchar(1000) NOT NULL,
-    Harga_Tiket varchar (50) NOT NULL,
-    PRIMARY KEY (Kode_Wisata)
-);
+    Kode_Wisata character(7) COLLATE pg_catalog."default" NOT NULL,
+    Tipe_Wisata varchar(50) COLLATE pg_catalog."default" NOT NULL,
+    Nama_Wisata varchar(50) COLLATE pg_catalog."default" NOT NULL, 
+    Kode_Kabkot character(6) COLLATE pg_catalog."default" NOT NULL,  
+    Kode_Kec character(8) NOT NULL,
+    Kode_Kel character(13) NOT NULL,
+    Deskripsi varchar(1000) NOT NULL,
+    Harga_Tiket varchar (50) NOT NULL,  
+    Rating varchar (20) NOT NULL,
+    Alamat varchar (50) NOT NULL,
+    CONSTRAINT Wisata_pkey PRIMARY KEY (Kode_Wisata),
+    CONSTRAINT Wisata_Kode_Kabkot_fkey FOREIGN KEY (Kode_Kabkot)
+        REFERENCES public.kabkot (Kode_Kabkot) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT Wisata_Kode_kec_fkey FOREIGN KEY (Kode_kec)
+        REFERENCES public.kecamatan (Kode_kec) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT Wisata_Kode_Kel_fkey FOREIGN KEY (Kode_Kel)
+        REFERENCES public.kelurahan (Kode_Kel) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    );
 ```
