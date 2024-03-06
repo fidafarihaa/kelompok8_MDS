@@ -6,7 +6,7 @@
 
 # Wisata Jawa Barat
 <p align="center">
-  <img width="1600" height="900" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/Header.png">
+  <img width="600" height="300" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/Header.png">
 </p>
 
 ## :scroll: Deskripsi
