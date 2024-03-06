@@ -108,3 +108,31 @@ CREATE TABLE IF NOT EXISTS public.Kelurahan (
     Jml_pddk_kel int NOT NULL,
     PRIMARY KEY (Kode_Kel)
 );
+
+### Create Table Wisata
+Table wisata berisi data wisata yang terdapat di Provinsi Jawa Barat, selain itu tabel ini menyajikan lokasi wisata tersebut, deskripsi serta termasuk kedalam tipe apakah wisata tersebut serta berapa biaya masuk lokasi wisata tersebut. Dengan adanya ini dapat memudahkan dalam memilih lokasi wisata jika berkunjung ke Provinsi Jawa Barat.
+| Attribute                  | Type                   | Description                         |
+|:---------------------------|:-----------------------|:------------------------------------|
+| Kode_Wisata                | character (7) 	      | Kode Wisata                         |
+| Tipe_Wisata                | character varying(50)  | Tipe Wisata                         |
+| Nama_Wisata                | character varying(50)  | Nama Wisata                         |	
+| Kode_Kabkot                | character (6)          | Kode Kabupaten Kota                 |
+| Kode_Kec                   | character (8)	      | Kode Kecamatan                      |
+| Kode_Kel    	     	     | character (13)	      | Kode Kelurahan                      |
+| Deskripsi                  | character varying(1000)| Deskripsi Wisata     		    |
+| Harga_Tiket		     | character varying(50)  | Harga Tiket Masuk Wisata	    |
+
+dengan script SQL sebagai berikut:              
+```sql
+CREATE TABLE IF NOT EXISTS public.Wisata (
+    Kode_Wisata character(7) NOT NULL,
+	Tipe_Wisata varchar(50) NOT NULL,
+	Nama_Wisata varchar(50) NOT NULL,
+	Kode_Kabkot character(6) NOT NULL,
+	Kode_Kec character(8) NOT NULL,
+	Kode_Kel character(13) NOT NULL,
+	Deskripsi varchar(1000) NOT NULL,
+    Harga_Tiket varchar (50) NOT NULL,
+    PRIMARY KEY (Kode_Wisata)
+);
+```
