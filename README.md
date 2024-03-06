@@ -31,3 +31,41 @@ ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atr
 <p align="center">
   <img width="600" height="400" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/ERD.png">
 </p>
+
+## open_book: Deskripsi Data
+
+Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
+
+### Create Database
+Databse Wisata Jabar menyimpan informasi wisata yang ada di provinsi Jawa Barat pada setiap Kabupaten Kota.
+```sql
+CREATE DATABASE "WisataJabar"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_Indonesia.1252'
+    LC_CTYPE = 'English_Indonesia.1252'
+    LOCALE_PROVIDER = 'libc'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+```
+### Create Table Instansi
+Table instansi memberikan informasi kepada user mengenai lembaga asal penulis jurnal sinta, sehingga user dapat mengetahui id instansi penulis, nama instansi penulis, jumlah penulis pada instansi tersebut, jumlah departemen pada instansi dan jumlah jurnal yang telah diterbitkan oleh setiap instansi. Berikut deskripsi untuk setiap tabel instansi.
+| Attribute          | Type                  | Description                     |
+|:-------------------|:----------------------|:--------------------------------|
+| Kode_Kabkot        | character (6) 	    	 | Id Instansi                     |
+| Nama_Kabkot      	 | character varying(20) | Nama Instansi                   |
+| Ibukota            | character varying(20) | Lokasi                          |
+| Jml_pddk     		   | smallint 	    	     | Jumlah Penulis                  |
+
+dengan script SQL sebagai berikut:
+```sql
+CREATE TABLE IF NOT EXISTS public.KabKot (
+    Kode_Kabkot character(6) NOT NULL,
+	Nama_Kabkot varchar(20) NOT NULL,
+    Ibukota varchar(20) NOT NULL,
+    Jml_pddk int NOT NULL,
+    PRIMARY KEY (Kode_Kabkot)
+);
+```
