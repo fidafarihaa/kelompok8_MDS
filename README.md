@@ -22,7 +22,7 @@ Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat
 ## :camera: Screenshot
 Berikut untuk tampilan depan dari dashboard wisata jawa barat
 <p div align="center">
-  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/SKEMA.png">
+  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/WhatsApp%20Image%202024-03-13%20at%2010.49.59_4ab022b0.jpg">
 </p>
 
 ## :question: Skema
