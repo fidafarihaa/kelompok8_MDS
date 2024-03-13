@@ -19,6 +19,12 @@ Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat
 - RDBMS yang digunakan adalah PostgreSQL dan ElephantSQL
 - Dashboard menggunakan `shinny`, `shinnythemes`, `bs4Dash`, `DT`, dan `dplyr` dari package R
 
+## :camera: Screenshot
+Berikut untuk tampilan depan dari dashboard wisata jawa barat
+<p div align="center">
+  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/SKEMA.png">
+</p>
+
 ## :question: Skema
 Project ini dirancang dengan skema sebagai berikut:
 <p div align="center">
