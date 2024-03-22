@@ -1,8 +1,3 @@
-# kelompok8_MDS
-### Asri Pratiwi (G1501231014)
-### Billy (G1501231034)
-### Fida Fariha Amatullah (G1501231064)
-### Aleytha Ilahnugrah Kurnadipare (G15012310067)
 
 # Wisata Jawa Barat
 <p align="center">
@@ -181,23 +176,16 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
 
 ## :smiley_cat: Our Team
 
+Kelompok 8
 
-- Backend Developer: [Aleytha Ilahnugrah Kurnadipare](https://github.com/yudheeeeet) (G1501231067)
-  <p align="center">
-  <img width="900" height="500" src="Image/YUDHIT.png">
-</p>
+- Backend Developer: [Aleytha Ilahnugrah Kurnadipare](https://github.com/aleythailahnugrah) (G1501231067)
+ 
 
-- Database Manager: [Fida Fariha Amatullah](https://github.com/tasyaanisahrizqi) (G1501231064)
-<p align="center">
-  <img width="900" height="500" src="Image/TASYA.png">
-</p>
+- Database Manager: [Fida Fariha Amatullah](https://github.com/fidafarihaa) (G1501231064)
 
-- Frontend Developer: [Billy](https://github.com/hhyuss) (G1501231034)
-<p align="center">
-  <img width="900" height="500" src="Image/HUS.png">
-</p>
 
-- Technical Writer: [Asri Pratiwi](https://github.com/yunnamentari) (G1501231014)
-<p align="center">
-  <img width="900" height="500" src="Image/YUNNA.png">
-</p>
+- Frontend Developer: [Billy](https://github.com/billyawan) (G1501231034)
+
+
+- Technical Writer: [Asri Pratiwi](https://github.com/asripratiwi) (G1501231014)
+
