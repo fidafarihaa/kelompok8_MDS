@@ -9,6 +9,17 @@
   <img width="900" height="500" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/Header.png">
 </p>
 
+## :bookmark_tabs: Menu
+
+- [Deskripsi](#scroll-tentang)
+- [Requierements](#bookmark_tabs-requirements)
+- [Screenshot](#camera-screenshot)
+- [Skema](#question-skema)
+- [ERD](#green_book-erd)
+- [Data Description](#open_book-deskripsi-data)
+- [Folder Structure](#open_file_folder-struktur-folder)
+- [Our Team](#smiley_cat-tim-pengembang)
+
 ## :scroll: Deskripsi
 
 Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Pada project akhir mata kuliah Manajemen Data Statistika kali ini, kelompok kami akan merangkum lokasi wisata yang ada di provinsi Jawa Barat.
@@ -167,3 +178,26 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
         ON DELETE NO ACTION,
     );
 ```
+
+## :smiley_cat: Our Team
+
+
+- Backend Developer: [Aleytha Ilahnugrah Kurnadipare](https://github.com/yudheeeeet) (G1501231067)
+  <p align="center">
+  <img width="900" height="500" src="Image/YUDHIT.png">
+</p>
+
+- Database Manager: [Fida Fariha Amatullah](https://github.com/tasyaanisahrizqi) (G1501231064)
+<p align="center">
+  <img width="900" height="500" src="Image/TASYA.png">
+</p>
+
+- Frontend Developer: [Billy](https://github.com/hhyuss) (G1501231034)
+<p align="center">
+  <img width="900" height="500" src="Image/HUS.png">
+</p>
+
+- Technical Writer: [Asri Pratiwi](https://github.com/yunnamentari) (G1501231014)
+<p align="center">
+  <img width="900" height="500" src="Image/YUNNA.png">
+</p>
