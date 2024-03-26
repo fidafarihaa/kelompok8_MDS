@@ -179,6 +179,29 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
     );
 ```
 
+## :open_file_folder: Folder Structure
+
+```
+.
+├── Image
+├── app           # ShinyApps
+│   ├── css
+│   │   ├── **/*.css
+│   ├── server.R
+│   └── ui.R
+├── con
+├── data 
+│   ├── csv
+│   │   ├── **/*.css
+│   └── sql
+|       └── db.sql
+├── doc           # Doc for the project
+├── .DS_Store           
+├── .gitignore
+├── ProjectMDS.Rproj
+└── README.md
+```
+
 ## :smiley_cat: Our Team
 
 Kelompok 8
