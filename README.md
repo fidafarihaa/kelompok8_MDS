@@ -9,6 +9,7 @@
 - [Deskripsi](#scroll-tentang)
 - [Requierements](#bookmark_tabs-requirements)
 - [Screenshot](#camera-screenshot)
+- [Demo](#dvd-demo)
 - [Skema](#question-skema)
 - [ERD](#green_book-erd)
 - [Data Description](#open_book-deskripsi-data)
@@ -30,6 +31,10 @@ Berikut untuk tampilan depan dari dashboard wisata jawa barat
 <p div align="center">
   <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/Tampilan Depan.jpg">
 </p>
+
+## :dvd: Demo
+
+Berikut link untuk shinnyapps atau dashboard dari project kami:
 
 ## :question: Skema
 Project ini dirancang dengan skema sebagai berikut:
