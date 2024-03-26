@@ -28,20 +28,20 @@ Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat
 ## :camera: Screenshot
 Berikut untuk tampilan depan dari dashboard wisata jawa barat
 <p div align="center">
-  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/WhatsApp%20Image%202024-03-13%20at%2010.49.59_4ab022b0.jpg">
+  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/Tampilan Depan.jpg">
 </p>
 
 ## :question: Skema
 Project ini dirancang dengan skema sebagai berikut:
 <p div align="center">
-  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/SKEMA.png">
+  <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/SKEMA.png">
 </p>
 
 ## :green_book: ERD
 ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atribut. Pada project ini, terdapat 4 entitas, yaitu entitas kabkot, kecamatan, kelurahan serta wisata. Pada entitas kabkot terdapat kode_kabkot yang akan terhubung ke entitas kecamatan, selanjutnya pada entitas kecamatan terdapat atribut kode_kec yang akan terhubung dengan entitas kelurahan, serta pada entitas kelurahan terdapat kode_kel yang akan terhubung dengan entitas wisata.
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/ERD.png">
+  <img width="600" height="400" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/ERD.png">
 </p>
 
 ## :open_book: Deskripsi Data
