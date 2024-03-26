@@ -1,7 +1,7 @@
 
 # Wisata Jawa Barat
 <p align="center">
-  <img width="900" height="500" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/Header.png">
+  <img width="900" height="500" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/Header.png">
 </p>
 
 ## :bookmark_tabs: Menu
