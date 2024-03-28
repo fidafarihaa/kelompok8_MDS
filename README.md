@@ -34,7 +34,8 @@ Berikut untuk tampilan depan dari dashboard wisata jawa barat
 
 ## :film_projector: Demo
 
-Berikut link untuk shinnyapps atau dashboard dari project kami: https://mdskelompok8.shinyapps.io/pariwisata/
+Berikut link untuk shinnyapps atau dashboard dari project kami: 
+https://mdskelompok8.shinyapps.io/pariwisata/
 
 ## :atom: Skema
 Project ini dirancang dengan skema sebagai berikut:
