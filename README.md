@@ -27,7 +27,7 @@ Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berba
   </p>
 - b. Wisata Air
    <p div align="left">
-  <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/air terjun.png">
+  <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/air terjun.jpeg">
   </p>
 - c. Wisata Alam
    <p div align="left">
