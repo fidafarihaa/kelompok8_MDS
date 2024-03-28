@@ -22,21 +22,29 @@
 
 Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berbagai destinasi wisata yang indah, menarik, dan menambah khazanah pengetahuan anda. Terdapat 6 jenis destinasi yang kami sajikan, yaitu: 
 - a. Pantai
- <p div align="left">
+   <p div align="left">
   <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/pantai.png">
   </p>
 - b. Wisata Air
-   
+   <p div align="left">
+  <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/air terjun.png">
+  </p>
 - c. Wisata Alam
    <p div align="left">
   <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/wisata alam.png">
   </p>
 - d. Wisata Edukasi
+   <p div align="left">
+  <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/wisata edukasi.png">
+  </p>
 - e. Wisata Keagamaan
    <p div align="left">
   <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/wisata keagamaan.png">
   </p>
 - f. Wisata Sejarah
+   <p div align="left">
+  <img width="150" height="150" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/wisata sejarah.png">
+  </p>
 
 ## :spiral_notepad: Deskripsi
 
