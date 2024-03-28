@@ -7,7 +7,7 @@
 ## :classical_building: Menu
 
 - [Deskripsi](#scroll-tentang)
-- [Requierements](#bookmark_tabs-requirements)
+- [Requirements](#bookmark_tabs-requirements)
 - [Screenshot](#camera-screenshot)
 - [Demo](#dvd-demo)
 - [Skema](#question-skema)
