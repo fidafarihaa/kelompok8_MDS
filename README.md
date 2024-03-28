@@ -48,7 +48,7 @@ Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berba
 
 ## :spiral_notepad: Deskripsi
 
-Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Dengan platform ini, anda dapat dengan mudah mencari informasi terkait destinasi wisata di Jawa Barat yang ingin anda kunjungi. Ini juga merupakan persembahan dari kelompok kami untuk project akhir mata kuliah Manajemen Data Statistika. Semoga bermanfaat. :blush:
+Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata menarik yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Dengan platform ini, anda dapat dengan mudah mencari informasi terkait destinasi wisata di Jawa Barat yang ingin anda kunjungi. Ini juga merupakan persembahan dari kelompok kami untuk project akhir mata kuliah Manajemen Data Statistika. Semoga bermanfaat. :blush:
 
 ## :page_with_curl: Requirements
 
