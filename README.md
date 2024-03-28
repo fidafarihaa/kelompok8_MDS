@@ -214,7 +214,7 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
 
 ```
 .
-├── Image
+├── image
 ├── app           # ShinyApps
 │   ├── css
 │   │   ├── **/*.css
