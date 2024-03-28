@@ -1,0 +1,12 @@
+name: pariwisata
+title: pariwisata
+username: mdskelompok8
+account: mdskelompok8
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11599174
+bundleId: 8428259
+url: https://mdskelompok8.shinyapps.io/pariwisata/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
