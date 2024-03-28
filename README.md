@@ -48,7 +48,7 @@ Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berba
 
 ## :spiral_notepad: Deskripsi
 
-Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Pada project akhir mata kuliah Manajemen Data Statistika kali ini, kelompok kami akan merangkum lokasi wisata yang ada di provinsi Jawa Barat.
+Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Dengan platform ini, anda dapat dengan mudah mencari informasi terkait destinasi wisata di Jawa Barat yang ingin anda kunjungi. Ini juga merupakan persembahan dari kelompok kami untuk project akhir mata kuliah Manajemen Data Statistika. Semoga bermanfaat. :blush:
 
 ## :page_with_curl: Requirements
 
@@ -85,7 +85,7 @@ ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atr
 Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
 
 ### Create Database
-Databse Wisata Jabar menyimpan informasi wisata yang ada di provinsi Jawa Barat pada setiap Kabupaten Kota.
+Database Wisata Jabar menyimpan informasi wisata yang ada di provinsi Jawa Barat pada setiap Kabupaten dan Kota.
 ```sql
 CREATE DATABASE "WisataJabar"
     WITH
