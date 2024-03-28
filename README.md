@@ -4,7 +4,7 @@
   <img width="900" height="500" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/Header.png">
 </p>
 
-## :bookmark_tabs: Menu
+## :classical_building: Menu
 
 - [Deskripsi](#scroll-tentang)
 - [Requierements](#bookmark_tabs-requirements)
@@ -16,33 +16,33 @@
 - [Folder Structure](#open_file_folder-struktur-folder)
 - [Our Team](#smiley_cat-tim-pengembang)
 
-## :scroll: Deskripsi
+## :newspaper: Deskripsi
 
 Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Pada project akhir mata kuliah Manajemen Data Statistika kali ini, kelompok kami akan merangkum lokasi wisata yang ada di provinsi Jawa Barat.
 
-## :bookmark_tabs: Requirements
+## :page_with_curl: Requirements
 
 - Scrapping data menggunakan package R yaitu `rvest` dengan pendukung package lainnya seperti `tidyverse`,`rio`,`kableExtra` dan `stingr`  
 - RDBMS yang digunakan adalah PostgreSQL dan ElephantSQL
 - Dashboard menggunakan `shinny`, `shinnythemes`, `bs4Dash`, `DT`, dan `dplyr` dari package R
 
-## :camera: Screenshot
+## :clapper: Screenshot
 Berikut untuk tampilan depan dari dashboard wisata jawa barat
 <p div align="center">
   <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/Tampilan Depan.jpg">
 </p>
 
-## :dvd: Demo
+## :film_projector: Demo
 
-Berikut link untuk shinnyapps atau dashboard dari project kami:
+Berikut link untuk shinnyapps atau dashboard dari project kami: https://mdskelompok8.shinyapps.io/pariwisata/
 
-## :question: Skema
+## :atom: Skema
 Project ini dirancang dengan skema sebagai berikut:
 <p div align="center">
   <img width="700" height="450" src="https://github.com/fidafarihaa/kelompok8_MDS/blob/main/image/SKEMA.png">
 </p>
 
-## :green_book: ERD
+## :books: ERD
 ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atribut. Pada project ini, terdapat 4 entitas, yaitu entitas kabkot, kecamatan, kelurahan serta wisata. Pada entitas kabkot terdapat kode_kabkot yang akan terhubung ke entitas kecamatan, selanjutnya pada entitas kecamatan terdapat atribut kode_kec yang akan terhubung dengan entitas kelurahan, serta pada entitas kelurahan terdapat kode_kel yang akan terhubung dengan entitas wisata.
 
 <p align="center">
@@ -179,7 +179,7 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
     );
 ```
 
-## :open_file_folder: Folder Structure
+## :file_folder: Folder Structure
 
 ```
 .
@@ -202,7 +202,7 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
 └── README.md
 ```
 
-## :smiley_cat: Our Team
+## :owl: Our Team
 
 Kelompok 8
 
