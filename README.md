@@ -6,17 +6,29 @@
 
 ## :classical_building: Menu
 
-- [Deskripsi](#scroll-tentang)
-- [Requirements](#bookmark_tabs-requirements)
-- [Screenshot](#camera-screenshot)
-- [Demo](#dvd-demo)
-- [Skema](#question-skema)
-- [ERD](#green_book-erd)
+- [Welcome](#bestcampy-welcome)
+- [Deskripsi](#diya_lamp-deskripsi)
+- [Requirements](#page_with_curl-requirements)
+- [Screenshot](#clapper-screenshot)
+- [Demo](#film_projector-demo)
+- [Skema](#atom-skema)
+- [ERD](#books-erd)
 - [Data Description](#open_book-deskripsi-data)
-- [Folder Structure](#open_file_folder-struktur-folder)
-- [Our Team](#smiley_cat-tim-pengembang)
+- [Folder Structure](#file_folder-struktur-folder)
+- [Our Team](#owl-tim-pengembang)
 
-## :newspaper: Deskripsi
+
+## :bestcampy: Welcome
+
+Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berbagai destinasi wisata yang indah, menarik, dan menambah khazanah pengetahuan anda. Terdapat 6 jenis destinasi yang kami sajikan, yaitu:
+a. Pantai
+b. Wisata Air
+c. Wisata Alam
+d. Wisata Edukasi
+e. Wisata Keagamaan
+f. Wisata Sejarah
+
+## :diya_lamp: Deskripsi
 
 Jawa Barat merupakan salah satu provinsi yang terletak di pulau Jawa. Jawa Barat memiliki banyak sekali tempat wisata yang dapat kalian kunjungi, tentunya tidak hanya wisata yang ada di Kota Bandung saja, di kabupaten-kabupaten lain juga banyak sekali lokasi wisata yang indah. Pada project akhir mata kuliah Manajemen Data Statistika kali ini, kelompok kami akan merangkum lokasi wisata yang ada di provinsi Jawa Barat.
 
