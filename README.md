@@ -189,13 +189,11 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
 │   │   ├── **/*.css
 │   ├── server.R
 │   └── ui.R
-├── con
 ├── data 
 │   ├── csv
 │   │   ├── **/*.css
 │   └── sql
 |       └── db.sql
-├── doc           # Doc for the project
 ├── .DS_Store           
 ├── .gitignore
 ├── ProjectMDS.Rproj
