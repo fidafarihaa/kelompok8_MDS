@@ -20,7 +20,8 @@
 
 ## :basecampy: Welcome
 
-Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berbagai destinasi wisata yang indah, menarik, dan menambah khazanah pengetahuan anda. Terdapat 6 jenis destinasi yang kami sajikan, yaitu:pantai, wisata air, wisata alam, wisata edukasi, wisata keagamaan, wisata sejarah.
+Selamat Datang di platform Wisata Jawa Barat. Disini, anda dapat menemukan berbagai destinasi wisata yang indah, menarik, dan menambah khazanah pengetahuan anda. Terdapat 6 jenis destinasi yang kami sajikan, yaitu: 
+- a. Pantai, wisata air, wisata alam, wisata edukasi, wisata keagamaan, wisata sejarah.
 
 ## :spiral_notepad: Deskripsi
 
