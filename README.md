@@ -195,9 +195,6 @@ CREATE TABLE IF NOT EXISTS public.Wisata (
 │   │   ├── **/*.css
 │   └── sql
 |       └── db.sql
-├── .DS_Store           
-├── .gitignore
-├── ProjectMDS.Rproj
 └── README.md
 ```
 
